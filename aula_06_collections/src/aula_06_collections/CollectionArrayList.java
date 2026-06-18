@@ -34,8 +34,8 @@ public class CollectionArrayList {
 			System.out.println(numero);
 		}
 		
-		//numeros.sort(null);
-		numeros.sort(Comparator.reverseOrder());
+		numeros.sort(null); //Ordem crescente
+		numeros.sort(Comparator.reverseOrder()); //Ordem decrescente
 		
 		for (int numero: numeros) {
 			System.out.println(numero);
