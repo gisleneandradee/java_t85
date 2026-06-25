@@ -86,7 +86,11 @@ public class ControleEstoque {
                     break;
 
                 case 0:
+<<<<<<< HEAD
                     System.out.println("Fim do programa.");
+=======
+                    System.out.println("Saindo do sistema de estoque...");
+>>>>>>> d43b989934df3c475ae1bd45dfa49013002a29f4
                     break;
 
                 default:
